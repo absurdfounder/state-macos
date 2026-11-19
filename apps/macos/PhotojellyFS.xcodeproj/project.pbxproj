@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC86C76FFDD3C3170E3227F /* PhotojellyFSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D0C9EF4EB1372AB4AA6FF; };
+		3FA74CFE111951A3EF272B56 /* DropWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EB897E97F0783A97F8DC4; };
+		A1A1A1A1A1A1A1A1A1A1A1A1 /* DriveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1B1B1B1B1B1B1B1B1B1B1; };
+		A2A2A2A2A2A2A2A2A2A2A2A2 /* MenuPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2B2B2B2B2B2B2B2B2B2B2; };
+		A3A3A3A3A3A3A3A3A3A3A3A3 /* HomeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B3B3B3B3B3B3B3B3B3B3B3; };
+		A5A5A5A5A5A5A5A5A5A5A5A5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5B5B5B5B5B5B5B5B5B5B5; };
+		A6A6A6A6A6A6A6A6A6A6A6A6 /* VolumeMount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B6B6B6B6B6B6B6B6B6B6; };
+		A7A7A7A7A7A7A7A7A7A7A7A7 /* CacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C7C7C7C7C7C7C7C7C7C7C7; };
+		A8A8A8A8A8A8A8A8A8A8A8A8 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D7D7D7D7D7D7D7D7D7D7D7; };
+		A9A9A9A9A9A9A9A9A9A9A9A9 /* ThumbnailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7E7E7E7E7E7E7E7E7E7E7; };
+		A4A4A4A4A4A4A4A4A4A4A4A4 /* FileIngest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8F8F8F8F8F8F8F8F8F8F8; };
+		8F2A1C9E4B7D3056A1C2E4F1 /* JevClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A1C9E4B7D3056A1C2E4F0; };
+		8F2A1C9E4B7D3056A1C2E4F3 /* LabelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A1C9E4B7D3056A1C2E4F2; };
+		80E9C782F69A7F738866BAD4 /* DriveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470C57D8AB6AEBFA85DE9627; };
+		3E8F3206546298723EF7E82B /* B2Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224C0072311973B30B828ED; };
+		9B1A2C3D4E5F60718293A4B6 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A2C3D4E5F60718293A4B5; };
+		DDD515158BE69A40AF0670E1 /* DriveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470C57D8AB6AEBFA85DE9627; };
+		1BBB18155C71967D90450F98 /* B2Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224C0072311973B30B828ED; };
+		9B1A2C3D4E5F60718293A4B7 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A2C3D4E5F60718293A4B5; };
+		D4D4D4D4D4D4D4D4D4D4D4D4 /* SessionStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4C4C4C4C4C4C4C4C4C4C4; };
+		E4E4E4E4E4E4E4E4E4E4E4E4 /* SessionStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4C4C4C4C4C4C4C4C4C4C4; };
+		02378BF2D10941E2107DC1AC /* PhotojellyFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6891701BBC35B244EA3D63; };
+		7D89C8D3D3EA9170507663B9 /* PhotojellyVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2F4DBDC689CBC64A419CA; };
+		F281AF52EF70728E593D270F /* PhotojellyFSExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 28B0DB30452D814DA1E7D886; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		269605D45C104F12CBCDC8FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Extensions;
+			dstSubfolderSpec = 1;
+			files = (
+				F281AF52EF70728E593D270F /* PhotojellyFSExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+				124D0C9EF4EB1372AB4AA6FF /* PhotojellyFSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotojellyFSApp.swift; sourceTree = "<group>"; };
+				E25EB897E97F0783A97F8DC4 /* DropWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropWatch.swift; sourceTree = "<group>"; };
+				B1B1B1B1B1B1B1B1B1B1B1B1 /* DriveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveStore.swift; sourceTree = "<group>"; };
+				B2B2B2B2B2B2B2B2B2B2B2B2 /* MenuPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPanel.swift; sourceTree = "<group>"; };
+				B3B3B3B3B3B3B3B3B3B3B3B3 /* HomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWindow.swift; sourceTree = "<group>"; };
+				B5B5B5B5B5B5B5B5B5B5B5B5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+				B6B6B6B6B6B6B6B6B6B6B6B6 /* VolumeMount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMount.swift; sourceTree = "<group>"; };
+				C7C7C7C7C7C7C7C7C7C7C7C7 /* CacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheStore.swift; sourceTree = "<group>"; };
+				D7D7D7D7D7D7D7D7D7D7D7D7 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+				E7E7E7E7E7E7E7E7E7E7E7E7 /* ThumbnailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailStore.swift; sourceTree = "<group>"; };
+				F8F8F8F8F8F8F8F8F8F8F8F8 /* FileIngest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIngest.swift; sourceTree = "<group>"; };
+			8F2A1C9E4B7D3056A1C2E4F0 /* JevClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JevClient.swift; sourceTree = "<group>"; };
+			8F2A1C9E4B7D3056A1C2E4F2 /* LabelStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStore.swift; sourceTree = "<group>"; };
+				470C57D8AB6AEBFA85DE9627 /* DriveConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveConfig.swift; sourceTree = "<group>"; };
+				6224C0072311973B30B828ED /* B2Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2Client.swift; sourceTree = "<group>"; };
+				9B1A2C3D4E5F60718293A4B5 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+				C4C4C4C4C4C4C4C4C4C4C4C4 /* SessionStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStats.swift; sourceTree = "<group>"; };
+				CE6891701BBC35B244EA3D63 /* PhotojellyFileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotojellyFileSystem.swift; sourceTree = "<group>"; };
+				2EC2F4DBDC689CBC64A419CA /* PhotojellyVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotojellyVolume.swift; sourceTree = "<group>"; };
+		0D493409E7577C82F343B055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CA94CBDE4CE861DBFA3078 /* PhotojellyFS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotojellyFS.entitlements; sourceTree = "<group>"; };
+		9181645632A3F00F2C42CBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81236199BD1D15098B46053 /* PhotojellyFSExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotojellyFSExtension.entitlements; sourceTree = "<group>"; };
+		37BC4B709DA7D5DA16736AD8 /* PhotojellyFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotojellyFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B0DB30452D814DA1E7D886 /* PhotojellyFSExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotojellyFSExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5ED263B209E866A6C51497 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		00CA4225F10571325F901EE1 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3442C5B9F6532FA522C9A7 = {
+			isa = PBXGroup;
+			children = (
+				56A1B566039BA486F2D6DC66 /* App */,
+				2530B4352E08E50E1449796C /* FSExtension */,
+				139363E72819083888FDEAE9 /* Shared */,
+				3B886D25E9209DFCE86603D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56A1B566039BA486F2D6DC66 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				124D0C9EF4EB1372AB4AA6FF /* PhotojellyFSApp.swift */,
+				E25EB897E97F0783A97F8DC4 /* DropWatch.swift */,
+				B1B1B1B1B1B1B1B1B1B1B1B1 /* DriveStore.swift */,
+				B2B2B2B2B2B2B2B2B2B2B2B2 /* MenuPanel.swift */,
+				B3B3B3B3B3B3B3B3B3B3B3B3 /* HomeWindow.swift */,
+				B5B5B5B5B5B5B5B5B5B5B5B5 /* Theme.swift */,
+				B6B6B6B6B6B6B6B6B6B6B6B6 /* VolumeMount.swift */,
+				C7C7C7C7C7C7C7C7C7C7C7C7 /* CacheStore.swift */,
+				D7D7D7D7D7D7D7D7D7D7D7D7 /* SettingsSheet.swift */,
+				E7E7E7E7E7E7E7E7E7E7E7E7 /* ThumbnailStore.swift */,
+				F8F8F8F8F8F8F8F8F8F8F8F8 /* FileIngest.swift */,
+				8F2A1C9E4B7D3056A1C2E4F0 /* JevClient.swift */,
+				8F2A1C9E4B7D3056A1C2E4F2 /* LabelStore.swift */,
+				0D493409E7577C82F343B055 /* Info.plist */,
+				70CA94CBDE4CE861DBFA3078 /* PhotojellyFS.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2530B4352E08E50E1449796C /* FSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CE6891701BBC35B244EA3D63 /* PhotojellyFileSystem.swift */,
+				2EC2F4DBDC689CBC64A419CA /* PhotojellyVolume.swift */,
+				9181645632A3F00F2C42CBDD /* Info.plist */,
+				C81236199BD1D15098B46053 /* PhotojellyFSExtension.entitlements */,
+			);
+			path = FSExtension;
+			sourceTree = "<group>";
+		};
+		139363E72819083888FDEAE9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				470C57D8AB6AEBFA85DE9627 /* DriveConfig.swift */,
+				6224C0072311973B30B828ED /* B2Client.swift */,
+				9B1A2C3D4E5F60718293A4B5 /* Brand.swift */,
+				C4C4C4C4C4C4C4C4C4C4C4C4 /* SessionStats.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3B886D25E9209DFCE86603D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37BC4B709DA7D5DA16736AD8 /* PhotojellyFS.app */,
+				28B0DB30452D814DA1E7D886 /* PhotojellyFSExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A41E6D4940C3747EB8FEB7 /* PhotojellyFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FB5E3D687FFCB8ACC722B4 /* Build configuration list for PBXNativeTarget "PhotojellyFS" */;
+			buildPhases = (
+				EE90CA85CC51619D010E27B2 /* Sources */,
+				8E5ED263B209E866A6C51497 /* Frameworks */,
+				8C86D12C4B4C5F6079F9C2F1 /* Resources */,
+				269605D45C104F12CBCDC8FB /* Embed Foundation Extensions */,
+			);
+			buildRules = ();
+			dependencies = (
+				2254342BECCEAFBD04538E0A /* PBXTargetDependency */,
+			);
+			name = PhotojellyFS;
+			productName = PhotojellyFS;
+			productReference = 37BC4B709DA7D5DA16736AD8 /* PhotojellyFS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		994CC358AB27AB7DA9B497BB /* PhotojellyFSExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4164FB3CF9574A9E77BB5464 /* Build configuration list for PBXNativeTarget "PhotojellyFSExtension" */;
+			buildPhases = (
+				EF3ADBB4504FFAB6C17C4A75 /* Sources */,
+				00CA4225F10571325F901EE1 /* Frameworks */,
+				EEF2A02B8B9E044FC86B01F9 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = PhotojellyFSExtension;
+			productName = PhotojellyFSExtension;
+			productReference = 28B0DB30452D814DA1E7D886 /* PhotojellyFSExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A9A41E6D4940C3747EB8FEB7 = { CreatedOnToolsVersion = 26.2; };
+					994CC358AB27AB7DA9B497BB = { CreatedOnToolsVersion = 26.2; };
+				};
+			};
+			buildConfigurationList = CA58A569A0A4B428AE5CD85C /* Build configuration list for PBXProject "PhotojellyFS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 3C3442C5B9F6532FA522C9A7;
+			productRefGroup = 3B886D25E9209DFCE86603D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A41E6D4940C3747EB8FEB7 /* PhotojellyFS */,
+				994CC358AB27AB7DA9B497BB /* PhotojellyFSExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXContainerItemProxy section */
+		431387EB7262E1CFC79B125E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994CC358AB27AB7DA9B497BB;
+			remoteInfo = PhotojellyFSExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		2254342BECCEAFBD04538E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994CC358AB27AB7DA9B497BB /* PhotojellyFSExtension */;
+			targetProxy = 431387EB7262E1CFC79B125E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C86D12C4B4C5F6079F9C2F1 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		EEF2A02B8B9E044FC86B01F9 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE90CA85CC51619D010E27B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC86C76FFDD3C3170E3227F /* PhotojellyFSApp.swift in Sources */,
+				3FA74CFE111951A3EF272B56 /* DropWatch.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1A1 /* DriveStore.swift in Sources */,
+				A2A2A2A2A2A2A2A2A2A2A2A2 /* MenuPanel.swift in Sources */,
+				A3A3A3A3A3A3A3A3A3A3A3A3 /* HomeWindow.swift in Sources */,
+				A5A5A5A5A5A5A5A5A5A5A5A5 /* Theme.swift in Sources */,
+				A6A6A6A6A6A6A6A6A6A6A6A6 /* VolumeMount.swift in Sources */,
+				A7A7A7A7A7A7A7A7A7A7A7A7 /* CacheStore.swift in Sources */,
+				A8A8A8A8A8A8A8A8A8A8A8A8 /* SettingsSheet.swift in Sources */,
+				A9A9A9A9A9A9A9A9A9A9A9A9 /* ThumbnailStore.swift in Sources */,
+				A4A4A4A4A4A4A4A4A4A4A4A4 /* FileIngest.swift in Sources */,
+				8F2A1C9E4B7D3056A1C2E4F1 /* JevClient.swift in Sources */,
+				8F2A1C9E4B7D3056A1C2E4F3 /* LabelStore.swift in Sources */,
+				DDD515158BE69A40AF0670E1 /* DriveConfig.swift in Sources */,
+				1BBB18155C71967D90450F98 /* B2Client.swift in Sources */,
+				9B1A2C3D4E5F60718293A4B7 /* Brand.swift in Sources */,
+				D4D4D4D4D4D4D4D4D4D4D4D4 /* SessionStats.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3ADBB4504FFAB6C17C4A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02378BF2D10941E2107DC1AC /* PhotojellyFileSystem.swift in Sources */,
+				7D89C8D3D3EA9170507663B9 /* PhotojellyVolume.swift in Sources */,
+				80E9C782F69A7F738866BAD4 /* DriveConfig.swift in Sources */,
+				3E8F3206546298723EF7E82B /* B2Client.swift in Sources */,
+				9B1A2C3D4E5F60718293A4B6 /* Brand.swift in Sources */,
+				E4E4E4E4E4E4E4E4E4E4E4E4 /* SessionStats.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEC52E891B1DE2B3F81150D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		8FD30172609F662677CE533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Release;
+		};
+		55B2C2BC35B1B64ECAB4D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/PhotojellyFS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photojelly.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FC9A5BF2ECC862344D751BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/PhotojellyFS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photojelly.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		03D615D7FE0C07E6A0E7065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FSExtension/PhotojellyFSExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FSExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", "@executable_path/../../../../Frameworks");
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photojelly.mac.FSExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84500F0D8DF0A7DBD9A60DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FSExtension/PhotojellyFSExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FSExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", "@executable_path/../../../../Frameworks");
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photojelly.mac.FSExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA58A569A0A4B428AE5CD85C /* Build configuration list for PBXProject "PhotojellyFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC52E891B1DE2B3F81150D6 /* Debug */,
+				8FD30172609F662677CE533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FB5E3D687FFCB8ACC722B4 /* Build configuration list for PBXNativeTarget "PhotojellyFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B2C2BC35B1B64ECAB4D1FF /* Debug */,
+				FC9A5BF2ECC862344D751BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4164FB3CF9574A9E77BB5464 /* Build configuration list for PBXNativeTarget "PhotojellyFSExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D615D7FE0C07E6A0E7065A /* Debug */,
+				84500F0D8DF0A7DBD9A60DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

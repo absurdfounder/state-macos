@@ -1,0 +1,17 @@
+.netlify/
+.DS_Store
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+.build/
+.swiftpm/
+*.xcarchive/
+*.app/
+*.appex/
+*.dSYM/
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.provisionprofile
